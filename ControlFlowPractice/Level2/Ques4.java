@@ -1,4 +1,4 @@
-package level2;
+package ControlFlowPractice.Level2;
 import java.util.*;
 public class Ques4 {
 	public static void main(String[] args) {

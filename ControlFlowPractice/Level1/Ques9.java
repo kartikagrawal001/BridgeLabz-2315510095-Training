@@ -1,4 +1,4 @@
-package Level1;
+package ControlFlowPractice.Level1;
 import java.util.Scanner;
 
 public class Ques9 {

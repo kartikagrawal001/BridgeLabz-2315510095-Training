@@ -26,7 +26,7 @@ public class CardGame {
             deck[randomCardNumber] = temp;
         }
     }
-
+    
     static String[][] distributeCards(String[] deck, int numCards, int numPlayers) {
         if (numCards * numPlayers > deck.length) return null;
         String[][] players = new String[numPlayers][numCards];
@@ -41,7 +41,7 @@ public class CardGame {
 
     static void printPlayersCards(String[][] players) {
         for (int i = 0; i < players.length; i++) {
-            System.out.println("Player " + (i + 1) + " cards:");
+            System.out.println("Player " + (i + 1) + " cards:");    
             for (int j = 0; j < players[i].length; j++) {
                 System.out.println("  " + players[i][j]);
             }
